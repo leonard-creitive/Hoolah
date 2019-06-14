@@ -14,7 +14,7 @@ const api = () => {
   router.use('/payments', payments());
   router.use('/userCards', userCards());
   router.use('/installments', installments());
-  
+
   return router;
 };
 

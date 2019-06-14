@@ -7,7 +7,7 @@ export class User extends BaseEntity {
   id: number;
 
   @Column()
-  password:string;
+  password: string;
 
   @Column()
   firstName: string;
@@ -26,5 +26,5 @@ export class User extends BaseEntity {
 
   @Column()
   NRIC: string;
-  
+
 }
